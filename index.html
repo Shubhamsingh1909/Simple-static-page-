@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width">
+          <meta charset="utf-8">
+          <title>E-commerce </title>
+          <link rel="stylesheet" href="wow/animate.css">
+          <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <script src="https://kit.fontawesome.com/5a41f1e192.js" crossorigin="anonymous">
+          </script>
+          <link rel="icon" sizes="32x32" href="media/favicons/favicon-32x32.png">
+          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
+          <link rel="stylesheet" href="style.css">
+      </head>
+  <body>
+    <section id="landing" class="text-white">
+      <video autoplay muted loop class="position-fixed">
+        <source src="media/v.mp4" type="video/mp4">
+      </video>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0 bg-transparent align-items-start">
+        <a class="navbar-brand" href="#">E-Commerce Website</a>
+        <button class="navbar-toggler" data-toggle= "collapse" data-target="#navbarSupportedContent" type="button" name="button">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ml-auto flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item ml-4 active">
+                  <a class="nav-link px-2" href="#">Home</a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link px-2" href="#">About</a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link px-2" href="#">Contact</a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link px-2" href="#">Our Team</a>
+                </li>
+                <li class="nav-item ml-4">
+                  <a class="nav-link px-2" href="#">Get Started</a>
+                </li>
+                <li class="nav-item ml-4 dropdown">
+                  <a class="nav-link px-2 dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">Dropdown</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Click Here</a>
+                    <a class="dropdown-item" href="#">Another Link</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div id="content" class="row align-items-center">
+            <div class="col-lg-6">
+              <h1 class="display-4 font-weight-bold text-center text-lg-left">
+                Crafty-Commerce</h1>
+            <h2 class="h1 font-weight-bold text-dark text-center text-lg-left"></h2>
+            <button  class="btn btn-lg rounded-pill my-4 d-block mx-auto ml-lg-0"type="button" name="button">Learn More</button>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <h3 class="font-weight-bold text-center text-lg-left"></h3>
+          <h4 class="font-weight-right text-center text-lg-left">Main Role of Admin,guest and user</h4>
+          <div class="dimmed rounded text-dark mt-4 d-flex flex-column align-items-center align-items-lg-start">
+          <div class="d-flex align-items-center">
+            <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+            <div class="my-3">
+            <h6 class="font-weight-bold mb-0"></h6>
+            <p>The primary goal of an e-commerce site is to sell goods and services online. This project deals with developing an e-commerce website for Online Craft Business. It provides the user with a catalogue of different products available for purchase in the store and can be bought from the comfort of home through the Internet. The customers can browse the catalogue and select products of interest. The selected items may be collected in a shopping cart. At checkout time, the items in the shopping cart will be presented as an order. At that time, more information will be needed to complete the transaction. Usually, the customer will be asked to select a billing address, a shipping address, a shipping option, and payment information such as credit card number. An e-mail notification is sent to the customer as soon as the order is placed 
+
+                  </p>
+            </div>
+          </div>
+              <div class="d-flex align-items-center">
+                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                <div class="my-3">
+                  <h6 class="font-weight-bold mb-0"></h6>
+                  <p>There are three roles available: Guest, User and Admin. </p>
+                  </div>
+                  </div>
+              <div class="d-flex align-items-center">
+                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                  <div class="my-3">
+                    <h6 class="font-weight-bold mb-0"></h6>
+                    <p>Guests can only view available products.   
+
+                      Registered Users can view and purchase products 
+                      
+                      An Admin has some extra privilege including all privilege of Guest and user. Admin can add products, edit product information and add/remove product. Admin can add users, edit user information, and remove user.  Admin can ship orders to users based on orders placed by sending confirmation mail.  </p>
+                  </div>
+              </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+      </section>
+      <section id="our-team">
+        <div class="container">
+          <header>
+            <h2 class="text-center font-weight-light">Our Team</h2>
+            <p class="text-center">E-crafty Commerce</p>
+            </header>
+            <div class="row mt-4">
+          <div class="wow fadeInLeft col-lg-3 col-md-6 mt-4" data-wow-offset="150">
+                <div class="card overflow-hidden">
+                  <img src="media/person1.jpg" alt="A person" class="card-img">
+                  <div class="position-absolute text-center text-white w-100 h-100 py-2 d-flex flex-column justify-content-center">
+                    <p>Shubham Singh</p>
+                    <em class="small">Front-end Developer</em>
+                    <div class="pt-3">
+                      <i class="px-1 fab fa-facebook"></i>
+                      <i class="px-1 fab fa-twitter"></i>
+                      <i class="px-1 fab fa-google-plus-g"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wow fadeInLeft col-lg-3 col-md-6 mt-4" data-wow-offset="150">
+                <div class="card overflow-hidden">
+                  <img src="media/person3.jpg" alt="A person" class="card-img">
+                    <div class="position-absolute text-center text-white w-100 h-100 py-2 d-flex flex-column justify-content-center">
+                      <p>Swetha R</p>
+                      <em class="small">Front-end Developer</em>
+                      <div class="pt-3">
+                        <i class="px-1 fab fa-facebook"></i>
+                        <i class="px-1 fab fa-twitter"></i>
+                        <i class="px-1 fab fa-google-plus-g"></i>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="wow fadeInLeft col-lg-3 col-md-6 mt-4" data-wow-offset="150">
+                <div class="card overflow-hidden">
+                  <img src="media/person4.jpg" alt="A person" class="card-img">
+                    <div class="position-absolute text-center text-white w-100 h-100 py-2 d-flex flex-column justify-content-center">
+                      <p>Rishab Khanna</p>
+                      <em class="small">Front-end Developer</em>
+                      <div class="pt-3">
+                        <i class="px-1 fab fa-facebook"></i>
+                        <i class="px-1 fab fa-twitter"></i>
+                        <i class="px-1 fab fa-google-plus-g"></i>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              
+          <div class="wow fadeInLeft col-lg-3 col-md-6 mt-4" data-wow-offset="150">
+                        <div class="card overflow-hidden">
+                          <img src="media/person7.jpg" alt="A person" class="card-img">
+                            <div class="position-absolute text-center text-white w-100 h-100 py-2 d-flex flex-column justify-content-center">
+                              <p>Neerja</p>
+                              <em class="small">Back-end Developer</em>
+                              <div class="pt-3">
+                                <i class="px-1 fab fa-facebook"></i>
+                                <i class="px-1 fab fa-twitter"></i>
+                                <i class="px-1 fab fa-google-plus-g"></i>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+          <div class="wow fadeInRight col-lg-3 col-md-6 mt-4" data-wow-offset="150">
+            <div class="card overflow-hidden">
+              <img src="media/person5.jpg" alt="A person" class="card-img">
+                <div class="position-absolute text-center text-white w-100 h-100 py-2 d-flex flex-column justify-content-center">
+                  <p>Vijay Kumar</p>
+                    <em class="small">Back-End Developer</em>
+                      <div class="pt-3">
+                        <i class="px-1 fab fa-facebook"></i>
+                          <i class="px-1 fab fa-twitter"></i>
+                            <i class="px-1 fab fa-google-plus-g"></i>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div class="wow fadeInRight col-lg-3 col-md-6 mt-4" data-wow-offset="150">
+                  <div class="card overflow-hidden">
+                    <img src="media/person6.jpg" alt="A person" class="card-img">
+                    <div class="position-absolute text-center text-white w-100 h-100 py-2 d-flex flex-column justify-content-center">
+                    <p>Varun</p>
+                    <em class="small">Back-end Developer</em>
+                    <div class="pt-3">
+                      <i class="px-1 fab fa-facebook"></i>
+                      <i class="px-1 fab fa-twitter"></i>
+                      <i class="px-1 fab fa-google-plus-g"></i>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      </section>
+<section id="info" class="py-5 text-white text-center">
+  <div class="container">
+  <h2 class="wow fadeIn h1 mt-0">Our Top Product </h2>
+  <p class="wow fadeIn lead text-uppercase text-muted">Product For you!!</p>
+  <hr class="divider-sm my-3">
+  <div class="row text-success">
+    <div class="wow bounceInLeft col-md-4" data-wow-delay=".3s">
+      <div class="icon rounded mt-3 py-5 bg-white">
+        <i class="fas fa-code fa-3x mb-4"></i>
+        <h3 class="h4 mb-2">Shoes</h3>
+        <p class="text-muted mb=0"></p>
+      </div>
+    </div>
+    <div class="wow fadeIn col-md-4" data-wow-offset="200">
+      <div class="icon rounded mt-3 py-5 bg-white">
+        <i class="fas fa-mobile-alt fa-3x mb-4"></i>
+        <h3 class="h4 mb-2">Phones</h3>
+        <p class="text-muted mb-0">mobile mode of love</p>
+      </div>
+    </div>
+    <div class="wow bounceInRight col-md-4" data-wow-delay=".3s">
+        <div class="icon rounded mt-3 py-5 bg-white">
+          <i class="fas fa-headset fa-3x mb-4"></i>
+          <h3 class="h4 mb-2">Earphones</h3>
+          <p class="text-muted mb-0">Just Feel the music</p>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="wow fadeInUpBig col-lg-3 col-6">
+        <h6 class="h1 font-weight-bold">2.5 lakh</h6>
+        <p>Clients</p>
+    </div>
+    <div class="wow fadeInUpBig col-lg-3 col-6" data-wow-delay=".1s">
+        <h6 class="h1 font-weight-bold">568</h6>
+        <p>Items</p>
+    </div>
+    <div class="wow fadeInUpBig col-lg-3 col-6" data-wow-delay=".2s">
+        <h6 class="h1 font-weight-bold">5+</h6>
+        <p>Year Of Service</p>
+    </div>
+    <div class="wow fadeInUpBig col-lg-3 col-6" data-wow-delay=".3s">
+        <h6 class="h1 font-weight-bold">60+</h6>
+        <p>Hard Workers</p>
+    </div>
+  </div>
+</div>
+</section>
+<section id="portfolio">
+  <div class="container">
+    <h3 class="wow flipInY font-weight-bold mb-0 text-center text-lg-left">Recent Top Products</h3>
+    <p class="wow flipInX lead text-center text-lg-left" data-wow-delay=".6s">We Strive To Create The Best Possible Products For Our Clients</p>
+    <div class="row">
+      <div class="wow rotateInDownLeft col-lg-3 mt-4 overflow-hidden" data-wow-delay=".5s">
+      <div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p1.jpg');">
+        <h5 class="text-uppercase font-weight-bold text-white">Bata Shoes</h5>
+  </div>
+</div>
+<div class="wow slideInUp col-lg-3 mt-4 overflow-hidden">
+<div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p2.jpg');">
+  <h5 class="text-uppercase font-weight-bold text-white">Ac </h5>
+</div>
+</div>
+<div class="wow slideInUp col-lg-3 mt-4 overflow-hidden">
+<div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p3.jpg');">
+  <h5 class="text-uppercase font-weight-bold text-white">Phones</h5>
+</div>
+</div>
+<div class="wow rotateInDownRight col-lg-3 mt-4 overflow-hidden" data-wow-delay=".5s">
+<div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p4.jpg');">
+  <h5 class="text-uppercase font-weight-bold text-white">Safari Bags</h5>
+</div>
+</div>
+</div>
+<div class="row d-none d-lg-flex">
+<div class="wow rotateInUpLeft col-lg-3 mt-4 overflow-hidden"data-wow-delay=".5s">
+<div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p5.jpg');">
+  <h5 class="text-uppercase font-weight-bold text-white">Earphones </h5>
+</div>
+</div>
+<div class="wow slideInDown col-lg-3 mt-4 overflow-hidden">
+<div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p6.jpg');">
+  <h5 class="text-uppercase font-weight-bold text-white">Furniture</h5>
+</div>
+</div>
+<div class="wow slideInDown col-lg-3 mt-4 overflow-hidden">
+<div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p7.jpg');">
+  <h5 class="text-uppercase font-weight-bold text-white">Casuals Shirts </h5>
+</div>
+</div>
+<div class="wow rotateInUpRight col-lg-3 mt-4 overflow-hidden"data-wow-delay=".5s">
+<div class="port-item d-flex align-items-center justify-content-center bg-img-default" style="background-image:url('media/p8.jpg');">
+  <h5 class="text-uppercase font-weight-bold text-white">Books</h5>
+</div>
+</div>
+</div>
+</section>
+<section id="pricing" class="shadow-2">
+  <div class="container text-center">
+    <div class="wow fadeIn mb-5">
+      <h2 class="h1">Our Pricing Options</h2>
+      <p class="lead w-75 mx-auto">If you have any questions regarding our packages, please refer to F.A.Q or contact our <a href="#">Customer Support</a>
+      </p>
+    </div>
+    <div class="row no-gutters">
+      <div class="wow zoomInLeft col-lg-4 mt-4">
+        <div class="card">
+          <div class="card-header bg-fancy text-white">
+            <h4>Basic Package</h4>
+          </div>
+          <div class="card-header bg-white py-4">
+            <h3><sup>₹</sup>100-400<small class="h6"></small>
+            <br>
+            <span class="badge mt-3 font-weight-normal badge-primary">Basic items</span>
+          </h3>
+        </div>
+        <div class="card-body">
+          <ul class="list-group border-0">
+            <li class="list-group-item border-0" >Basic Coverage</li>
+            <li class="list-group-item border-0" ><s>Returnable</s></li>
+            <li class="list-group-item border-0" >No MoneyBack</li>
+            <li class="list-group-item border-0" >Exchangable</li>
+            <li class="list-group-item border-0" ><s></s></li>
+            <li class="list-group-item border-0" ><s></s></li>
+      </ul>
+    </div>
+    <div class="card-footer pb-4 border-0 bg-white">
+      <button class="btn btn-lg btn-primary d-block mx-auto">Add To Cart</button>
+    </div>
+  </div>
+</div>
+    <div class="wow zoomInUp col-lg-4 mt-4">
+      <div class="card">
+        <div class="card-header bg-fancy text-white">
+          <h4>Esssential things</h4>
+        </div>
+        <div class="card-header bg-white py-4">
+          <h3><sup>₹</sup>500-5000<small class="h6"></small>
+          <br>
+          <span class="badge mt-3 font-weight-normal badge-primary">Recommended</span>
+        </h3>
+      </div>
+      <div class="card-body">
+        <ul class="list-group border-0">
+          <li class="list-group-item border-0" >Basic Coverage</li>
+          <li class="list-group-item border-0" >My Advance Coverage</li>
+          <li class="list-group-item border-0" >Minimal Support</li>
+          <li class="list-group-item border-0" >Free Updates</li>
+          <li class="list-group-item border-0" ><s>Free Assets</s></li>
+          <li class="list-group-item border-0" ><s>Free Premium Themes</s></li>
+    </ul>
+  </div>
+
+  <div class="card-footer pb-4 border-0 bg-white">
+    <button class="btn btn-lg btn-primary d-block mx-auto">Subscribe</button>
+  </div>
+</div>
+</div>
+  <div class="wow zoomInRight col-lg-4 mt-4">
+    <div class="card">
+      <div class="card-header bg-fancy text-white">
+        <h4>Mega Package</h4>
+      </div>
+      <div class="card-header bg-white py-4">
+        <h3><sup>$</sup>149.99<small class="h6">/month</small>
+        <br>
+        <span class="badge mt-3 font-weight-normal badge-primary">Professional</span>
+      </h3>
+    </div>
+    <div class="card-body">
+      <ul class="list-group border-0">
+        <li class="list-group-item border-0" >Basic Coverage</li>
+        <li class="list-group-item border-0" >My Advance Coverage</li>
+        <li class="list-group-item border-0" >Minimal Support</li>
+        <li class="list-group-item border-0" >Free Updates</li>
+        <li class="list-group-item border-0" >Free Assets</li>
+        <li class="list-group-item border-0" >Free Premium Themes</li>
+  </ul>
+</div>
+<div class="card-footer pb-4 border-0 bg-white">
+  <button class="btn btn-lg btn-primary d-block mx-auto">Subscribe</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="faq">
+  <div class="container">
+    <div class="mb-3">
+      <h3 class="wow fadeInUp text-white font-weight-bold display-3">F.A.Q</h3>
+    </div>
+    <div class="row">
+      <div class="wow bounceInUp col-lg-8">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="input-group input-group-lg my-3">
+              <input type="text" class="form-control" placeholder="Search F.A.Q">
+              <div class="input-group-append">
+                <button class="btn btn-success" type="submit">
+                  Search<i class="ml-2 fas fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div id="accordion">
+              <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <h5 class="mb-0 text-center">
+                          <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-1">Who decides the price of the product?</button>
+                      </h5>
+                  </div>
+
+                  <div id="q-1" class="collapse" data-parent="#accordion">
+                      <div class="card-body text-success">
+                          <p>As a seller, you will set the price of your products.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <h5 class="mb-0 text-center">
+                          <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-2">Who takes care of the delivery of my products?</button>
+                      </h5>
+                  </div>
+
+                  <div id="q-2" class="collapse" data-parent="#accordion">
+                      <div class="card-body text-success">
+                          <p>Our logistics partner will pick up the product from you and deliver it to the customer. All you need to do is keep it packed and ready for dispatch.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <h5 class="mb-0 text-center">
+                          <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-3">How do I manage my orders on Crafty commerce</button>
+                      </h5>
+                  </div>
+
+                  <div id="q-3" class="collapse" data-parent="#accordion">
+                      <div class="card-body text-success">
+                          <p>Through our seller dashboard, we make it really easy for you to manage your orders. Whenever a customer places an order, we will send you an e-mail alert. You need to pack the order and keep it ready for dispatch within the time frame provided by you and inform us through the seller portal. This will alert our logistics partner to pick up the product from you.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <h5 class="mb-0 text-center">
+                          <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-4">Can I get help for the development of the catalog (product images, description, etc.)?</button>
+                      </h5>
+                  </div>
+
+                  <div id="q-4" class="collapse" data-parent="#accordion">
+                      <div class="card-body text-success">
+                          <p>Yes, we are happy to help you at every stage while doing business with us. We help you connect with industry experts for the development of your catalogs. With the help of our catalog partners across India, you can have attractive images and crisp content developed at unbeatable prices.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <h5 class="mb-0 text-center">
+                          <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-5">Another lorem ipsum filler question?</button>
+                      </h5>
+                  </div>
+
+                  <div id="q-5" class="collapse" data-parent="#accordion">
+                      <div class="card-body text-success">
+                          <p>Iteration value proposition twitter paradigm shift virality iPhone alpha investor android return on investment traction social media social proof. Research & development low hanging fruit gamification growth hacking metrics burn rate churn rate seed money interaction design beta stealth crowdfunding. Ramen deployment pivot focus infographic bandwidth incubator social media influencer release pitch non-disclosure agreement channels facebook. Sales facebook crowdsource founders mass market handshake stealth gamification business model canvas startup churn rate.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <h5 class="mb-0 text-center">
+                          <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-6">What are your thoughts on open source software?</button>
+                      </h5>
+                  </div>
+
+                  <div id="q-6" class="collapse" data-parent="#accordion">
+                      <div class="card-body text-success">
+                          <p>Growth hacking product management monetization leverage niche market early adopters A/B testing partner network business-to-consumer. Client beta business model canvas partner network responsive web design. Alpha series A financing innovator channels traction startup virality churn rate lean startup. Focus investor android iPad startup user experience hypotheses sales. Value proposition startup ecosystem freemium beta iPhone A/B testing stealth influencer creative. Research & development crowdfunding burn rate supply chain entrepreneur agile development gamification infographic return on investment stealth business plan monetization low hanging fruit ecosystem.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="card mt-2">
+                  <div class="card-header bg-white">
+                      <h5 class="mb-0 text-center">
+                          <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-7">I ask too many question, what should I do?</button>
+                      </h5>
+                  </div>
+
+                  <div id="q-7" class="collapse" data-parent="#accordion">
+                      <div class="card-body text-success">
+                          <p>Social proof angel investor analytics seed money. Product management metrics accelerator twitter startup android hackathon value proposition infrastructure alpha business-to-business analytics. Ecosystem advisor social media seed round holy grail user experience MVP analytics validation accelerator non-disclosure agreement. User experience launch party bandwidth hackathon investor. Incubator non-disclosure agreement analytics beta business plan facebook interaction design business model canvas learning curve client partnership. Supply chain incubator gen-z iteration bootstrapping.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="wow bounceInRight col-lg-3">
+          <div class="card-bg-transparent border-0 test-dark text-center ob-5 mt-4 mt-lg-0">
+<div class="card-body bg-transparent pt-4">
+  <h3>Contact Us</h3>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-lg-12">
+    <div class="card-body mt-2">
+      <i class="fas fa-2x fa-phone-volume mb-2"></i>
+      <p>Call Us</p>
+      <p>1-800-6545-3366</p>
+    </div>
+  </div>
+  <div class="col-sm-4 col-lg-12">
+    <div class="card-body mt-2">
+      <i class="fas fa-2x fa-comment-dots mb-3"></i>
+      <button class="btn btn-dark d-block mx-auto">LiveChat</button>
+    </div>
+  </div>
+  <div class="col-sm-4 col-lg-12">
+    <div class="card-body mt-2">
+      <i class="fas fa-3x fa-ticket-alt mb-3"></i>
+      <button class="btn btn-dark d-block mx-auto">Ask question</button>
+    </div>
+  </div>
+</section>
+<section id="footer"class="shadow-2">
+  <footer class="container text-success text-center text-lg-left">
+    <div class="row">
+      <div class="wow slideInLeft col-lg-7" data-wow-offset="200">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4 class="h2 font-weight-light">E-crafty commerce<sup><small>&trade;</small></sup></h4>
+            <p>Crafty Commerce </p>
+          </div>
+          <div class="col-lg-6 pl-0 pl-lg-5 border-left mt-5 mt-lg-0" id="Contact">
+            <h5>contact</h5>
+            <address>21- Dlf city<br>
+              Gurugram<br>
+              PIN Code 110056 <br>
+              Telephone:858-668-1235</address>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-10">
+              <h3>Subscribe to Our website</h3>
+              <div class="input-group input-group-lg my-3">
+                <input type="text" class="form-control" placeholder="Email">
+                <div class="input-group-append">
+                  <button class="btn btn-success" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <div class="wow slideInRight col-lg-5" data-wow-offset="200">
+                      <div id="mapid"></div>
+              </div>
+            </div>
+          </footer>
+          <div class="wow slideInUp text-white text-center mt-5 py-3" id="footer-bottom">
+            <h6>copyright2020<br>All Rights Reserved</h6>
+          </div>
+        </section>
+
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin="">
+    </script>
+        <script src="scripts.js"></script>
+        <script src="wow/wow.min.js"></script>
+                <script src="wow/wow-activate.js"></script>
+
+              <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          </body>
+</html>
